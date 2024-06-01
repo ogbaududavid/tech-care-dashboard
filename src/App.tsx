@@ -1,5 +1,5 @@
 import './App.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import SideBar from './components/sideBar/SideBar';
 import Header from './components/header/Header';
 import SideBarInfo from './components/sideBarInfo/SideBarInfo';
