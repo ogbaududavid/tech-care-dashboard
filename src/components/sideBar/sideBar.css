@@ -1,0 +1,61 @@
+.side-bar{
+    border-radius: 20px;
+    background-color: #FFFFFF;
+    width: 20%;
+}
+.search-div{
+    display: flex;
+    gap: 20px;
+    align-items: center; 
+    padding: 20px; 
+}
+.search-wrpr{
+    display: flex;
+    padding: 3px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    background-color: #FFFFFF;
+}
+.search-input-box{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+.magnifying-glass{
+    position: relative;
+    margin-right: 10px;
+}
+.results-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100vh;
+    overflow: auto;
+}
+.card-item-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+.selected-patient{
+    background-color: #D8FCF7;
+}
+.card-details{
+    display: flex;
+    gap: 10px;
+}
+.card-details img{
+    width: 50px;
+}
+.details-container p{
+    margin: 0;
+}
+.patients-name{
+    font-weight: 600;
+}
+.additional-details{
+    color: #707070;
+    display: flex;
+    gap: 10px;
+}
